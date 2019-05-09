@@ -1,0 +1,21 @@
+﻿<Window x:Class="ImageMemoryLeak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageMemoryLeak"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="950">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="FrameMainWindow" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" NavigationUIVisibility="Hidden" Grid.Row="1"/>
+        <WrapPanel>
+            <Label x:Name="LBLTimes" Content="Times: 0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label x:Name="LBLMemory" Content="Use Of Memory: 0" Margin="20,0,0,0"/>
+            <Label x:Name="LBLMaxMemory" Content="Max Use of Memory: 0"/>
+        </WrapPanel>
+    </Grid>
+</Window>

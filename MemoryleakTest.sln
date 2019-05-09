@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMemoryLeak", "ImageMemoryLeak\ImageMemoryLeak.csproj", "{7A9065F7-8098-4C87-BA8F-CC3EC55D3938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A9065F7-8098-4C87-BA8F-CC3EC55D3938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9065F7-8098-4C87-BA8F-CC3EC55D3938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9065F7-8098-4C87-BA8F-CC3EC55D3938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9065F7-8098-4C87-BA8F-CC3EC55D3938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1314B02C-0E1C-4B2F-96EA-DDA6D483934D}
+	EndGlobalSection
+EndGlobal
